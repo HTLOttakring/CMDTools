@@ -16,6 +16,7 @@ namespace CMDTools
                 Console.WriteLine(Message);
             } while (!int.TryParse(Console.ReadLine(), out retValue));
             return retValue;
+
         }
     }
 }
