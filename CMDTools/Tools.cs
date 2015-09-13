@@ -20,6 +20,7 @@ namespace CMDTools
 
         public static double ReadDouble(string Message)
         {
+            //lkjflajds lakdfsj
             double retValue = 0;
             do
             {
