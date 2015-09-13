@@ -16,7 +16,18 @@ namespace CMDTools
                 Console.WriteLine(Message);
             } while (!int.TryParse(Console.ReadLine(), out retValue));
             return retValue;
+        }
+
+        public static double ReadDouble(string Message)
+        {
+            double retValue = 0;
+            do
+            {
+                Console.WriteLine(Message);
+            } while (!double.TryParse(Console.ReadLine(), out retValue));
+            return retValue;
 
         }
+
     }
 }
